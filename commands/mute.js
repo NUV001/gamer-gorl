@@ -10,8 +10,8 @@ module.exports = {
         const target = message.mentions.users.first();
         if (msg.member.hasPermission("MANAGE_ROLES")){
             if(target){
-                let mainRole = message.guild.roles.cache.find(role => role.name === 'gamers who vibe');
-                let muteRole = message.guild.roles.cache.find(role => role.name === 'mute');
+                let mainRole = message.guild.roles.cache.find(role => role.name === 'enter member role here');
+                let muteRole = message.guild.roles.cache.find(role => role.name === 'enter muted role here');
                 let memberTarget = message.guild.members.cache.get(target.id)
                 memberTarget.roles.remove(mainRole.id);
                 memberTarget.roles.add(muteRole.id)
