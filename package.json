@@ -1,0 +1,28 @@
+{
+  "name": "gamergorl",
+  "version": "0.1.0",
+  "description": "bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carpet3/gamer-gorl.git"
+  },
+  "author": "NUV",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/carpet3/gamer-gorl/issues"
+  },
+  "homepage": "https://github.com/carpet3/gamer-gorl#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment": "^2.29.1",
+    "mongodb": "^4.0.1",
+    "ytdl-core": "^4.9.0"
+  }
+}
